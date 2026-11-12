@@ -2,7 +2,7 @@
 
 **English** · [Bahasa Indonesia](README.id.md)
 
-A Chrome extension (Manifest V3) that saves selected text as a **seed** in the [Seedbed](../bengkel-ide/README.md) Obsidian plugin: the quote, its source, a trigger question, and your optional one-sentence answer. No server, no account, no network access.
+A Chrome extension (Manifest V3) that saves selected text as a **seed** in the [Seedbed](../README.md) Obsidian plugin: the quote, its source, a trigger question, and your optional one-sentence answer. No server, no account, no network access.
 
 > **Status: v0.2.0 (pre-release).** Tested on Windows 11 + Chrome. Not yet published on the Chrome Web Store.
 
@@ -72,7 +72,7 @@ There is no capture history. A capture you abandon stays in session storage unti
 - Fallback mode uses Obsidian's `obsidian://new`. Obsidian overwrites a note with the same name, so fallback file names get a local `HHmmss` timestamp.
 
 ## Verification
-36 tests, build, and bundle audit pass. Manual tests in a separate, signed-out Chrome profile: captures from Wikipedia, MDN, and paulgraham.com; saved answer; truncation; daily warning; fallback mode; Socratic promotion of a captured seed; English UI; capture-to-note time 0.26–0.34 s. Untested: other browsers and operating systems, many simultaneous capture windows. Details: `../docs/capture/C4-Checklist.md`, `C5-Uji-Manual.md`, `C6-Catatan-Build.md`.
+36 tests, build, and bundle audit pass. Manual tests in a separate, signed-out Chrome profile: captures from Wikipedia, MDN, and paulgraham.com; saved answer; truncation; daily warning; fallback mode; Socratic promotion of a captured seed; English UI; capture-to-note time 0.26–0.34 s. Untested: other browsers and operating systems, many simultaneous capture windows. Detailed manual-test notes are kept in the author's build notes, not in this repository.
 
 ## Publishing to the Chrome Web Store
 Not done yet. It needs a Chrome Web Store developer account (one-time registration fee), a ZIP of `dist/`, store listing text, screenshots, a privacy policy URL, and a justification for each permission. Then the listing goes through Google's review. A ready-to-upload package (ZIP, listing text, privacy answers, privacy policy, images, and a submission checklist) is in `store/`; see `store/SUBMISSION-CHECKLIST.md`. Nothing has been uploaded.

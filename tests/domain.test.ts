@@ -238,7 +238,7 @@ describe("buildUri: mode cadangan (F-C8, format §3.2)", () => {
 });
 
 describe("paritas dengan plugin Seedbed (badan catatan identik)", () => {
-	const pluginPath = new URL("../../bengkel-ide/src/domain/captureValidator.ts", import.meta.url);
+	const pluginPath = new URL("../../src/domain/captureValidator.ts", import.meta.url);
 	let exists = true;
 	try {
 		readFileSync(pluginPath);

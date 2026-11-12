@@ -2,7 +2,7 @@
 
 [English](README.md) · **Bahasa Indonesia**
 
-Ekstensi Chrome (Manifest V3) untuk menyimpan teks terpilih sebagai **benih** di plugin Obsidian [Seedbed](../bengkel-ide/README.id.md): kutipan, sumber, pertanyaan pemicu, dan jawaban satu kalimat (opsional). Tanpa server, tanpa akun, tanpa akses jaringan.
+Ekstensi Chrome (Manifest V3) untuk menyimpan teks terpilih sebagai **benih** di plugin Obsidian [Seedbed](../README.id.md): kutipan, sumber, pertanyaan pemicu, dan jawaban satu kalimat (opsional). Tanpa server, tanpa akun, tanpa akses jaringan.
 
 > **Status: v0.2.0 (pra-rilis).** Diuji di Windows 11 + Chrome. Belum terbit di Chrome Web Store.
 
@@ -72,7 +72,7 @@ Tidak ada riwayat tangkapan. Tangkapan yang ditinggalkan tetap di session storag
 - Mode cadangan memakai `obsidian://new` milik Obsidian. Obsidian menimpa catatan dengan nama yang sama, jadi nama file mode cadangan diberi cap waktu `HHmmss`.
 
 ## Verifikasi
-36 tes, build, dan audit bundel lulus. Uji manual di profil Chrome terpisah tanpa login: tangkapan dari Wikipedia, MDN, dan paulgraham.com; jawaban tersimpan; pemotongan; peringatan harian; mode cadangan; benih hasil tangkapan dinaikkan lewat gerbang Socratic; UI bahasa Inggris; waktu dari Simpan sampai catatan muncul 0,26–0,34 detik. Belum diuji: browser dan OS lain, banyak jendela tangkapan sekaligus. Rincian: `../docs/capture/C4-Checklist.md`, `C5-Uji-Manual.md`, `C6-Catatan-Build.md`.
+36 tes, build, dan audit bundel lulus. Uji manual di profil Chrome terpisah tanpa login: tangkapan dari Wikipedia, MDN, dan paulgraham.com; jawaban tersimpan; pemotongan; peringatan harian; mode cadangan; benih hasil tangkapan dinaikkan lewat gerbang Socratic; UI bahasa Inggris; waktu dari Simpan sampai catatan muncul 0,26–0,34 detik. Belum diuji: browser dan OS lain, banyak jendela tangkapan sekaligus. Catatan uji manual lengkap disimpan di catatan build penulis, bukan di repositori ini.
 
 ## Terbit di Chrome Web Store
 Belum dilakukan. Butuh akun developer Chrome Web Store (biaya pendaftaran sekali bayar), ZIP dari `dist/`, teks listing toko, screenshot, URL kebijakan privasi, dan alasan untuk setiap izin. Setelah itu listing melewati review Google. Paket siap upload (ZIP, teks listing, jawaban privasi, kebijakan privasi, gambar, dan checklist submit) ada di `store/`; lihat `store/SUBMISSION-CHECKLIST.md`. Belum ada yang di-upload.

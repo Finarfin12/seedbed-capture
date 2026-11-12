@@ -1,6 +1,6 @@
 /**
  * Normalisasi + escape + pembangun badan catatan. SALINAN yang sengaja identik dengan
- * `bengkel-ide/src/domain/captureValidator.ts` (plugin Seedbed), dipakai mode cadangan (obsidian://new)
+ * `src/domain/captureValidator.ts` di root repo (plugin Seedbed), dipakai mode cadangan (obsidian://new)
  * dan pemotongan kutipan. Tes paritas (tests/parity.test.ts) memastikan keluarannya sama persis.
  * Murni: tanpa DOM, tanpa chrome.*.
  */
