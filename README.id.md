@@ -10,8 +10,8 @@ Ekstensi Chrome (Manifest V3) untuk menyimpan teks terpilih sebagai **benih** di
 Ide yang muncul saat browsing sering hilang karena tidak sempat dicatat. Web clipper menyimpan apa yang kamu baca; Seedbed Capture menyimpan apa yang kamu *pikirkan* tentang bacaan itu, dan langsung memasukkannya ke Inkubator Seedbed.
 
 ## Pasang (unpacked)
-1. Build: `npm ci`, `npm test`, `npm run build`, `npm run check-bundle`.
-2. Di Chrome, buka `chrome://extensions`, aktifkan **Developer mode**, klik **Load unpacked**, lalu pilih folder `dist/`.
+1. **Unduh ZIP siap pakai:** unduh [`seedbed-capture-0.2.0.zip`](https://github.com/Finarfin12/seedbed-capture/releases/download/0.2.0/seedbed-capture-0.2.0.zip) dari [Releases](https://github.com/Finarfin12/seedbed-capture/releases/latest) (tersedia juga di [`store/seedbed-capture-0.2.0.zip`](store/seedbed-capture-0.2.0.zip)) lalu ekstrak ke sebuah folder — **atau build dari kode sumber:** `npm ci`, `npm test`, `npm run build`, `npm run check-bundle` (menghasilkan `dist/`).
+2. Di Chrome, buka `chrome://extensions`, aktifkan **Developer mode**, klik **Load unpacked**, lalu pilih folder hasil ekstrak tadi (atau `dist/`).
 3. Buka opsi ekstensi dan isi **nama vault**.
 4. Pasang **Seedbed 0.7.0 atau lebih baru** di vault itu, atau pilih **mode cadangan** di opsi.
 
