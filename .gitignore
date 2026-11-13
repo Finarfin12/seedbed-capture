@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.chrome-test-profile/
+.test-harness/
+store/_verify/
+store/_v2/
+store/*.zip
+store/images/_raw/
+store/images/_src/
+store/demo-vault/.obsidian/

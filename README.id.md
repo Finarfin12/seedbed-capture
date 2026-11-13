@@ -2,7 +2,7 @@
 
 [English](README.md) · **Bahasa Indonesia**
 
-Ekstensi Chrome (Manifest V3) untuk menyimpan teks terpilih sebagai **benih** di plugin Obsidian [Seedbed](../README.id.md): kutipan, sumber, pertanyaan pemicu, dan jawaban satu kalimat (opsional). Tanpa server, tanpa akun, tanpa akses jaringan.
+Ekstensi Chrome (Manifest V3) untuk menyimpan teks terpilih sebagai **benih** di plugin Obsidian [Seedbed](https://github.com/Finarfin12/Seedbed): kutipan, sumber, pertanyaan pemicu, dan jawaban satu kalimat (opsional). Tanpa server, tanpa akun, tanpa akses jaringan.
 
 > **Status: v0.2.0 (pra-rilis).** Diuji di Windows 11 + Chrome. Belum terbit di Chrome Web Store.
 
@@ -79,3 +79,6 @@ Belum dilakukan. Butuh akun developer Chrome Web Store (biaya pendaftaran sekali
 
 ## Lisensi
 [MIT](LICENSE), hak cipta (c) 2026 Finarfin12.
+
+## Protocol parity
+When the Seedbed capture protocol changes, update `parity/captureValidator.ts` from the plugin and run the tests.

@@ -1,0 +1,2 @@
+parity/*.ts text eol=lf
+parity/ai/*.ts text eol=lf

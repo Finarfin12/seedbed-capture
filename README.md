@@ -2,7 +2,7 @@
 
 **English** · [Bahasa Indonesia](README.id.md)
 
-A Chrome extension (Manifest V3) that saves selected text as a **seed** in the [Seedbed](../README.md) Obsidian plugin: the quote, its source, a trigger question, and your optional one-sentence answer. No server, no account, no network access.
+A Chrome extension (Manifest V3) that saves selected text as a **seed** in the [Seedbed](https://github.com/Finarfin12/Seedbed) Obsidian plugin: the quote, its source, a trigger question, and your optional one-sentence answer. No server, no account, no network access.
 
 > **Status: v0.2.0 (pre-release).** Tested on Windows 11 + Chrome. Not yet published on the Chrome Web Store.
 
@@ -79,3 +79,6 @@ Not done yet. It needs a Chrome Web Store developer account (one-time registrati
 
 ## License
 [MIT](LICENSE), copyright (c) 2026 Finarfin12.
+
+## Protocol parity
+When the Seedbed capture protocol changes, update `parity/captureValidator.ts` from the plugin and run the tests.
