@@ -10,8 +10,8 @@ A Chrome extension (Manifest V3) that saves selected text as a **seed** in the [
 Ideas that come up while browsing get lost because there's no time to write them down. A web clipper keeps what you read; Seedbed Capture keeps what you *think* about what you read, and puts it straight into Seedbed's Incubator.
 
 ## Install (unpacked)
-1. Build: `npm ci`, `npm test`, `npm run build`, `npm run check-bundle`.
-2. In Chrome, open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the `dist/` folder.
+1. **Download the ready-to-use ZIP:** download [`seedbed-capture-0.2.0.zip`](https://github.com/Finarfin12/seedbed-capture/releases/download/0.2.0/seedbed-capture-0.2.0.zip) from [Releases](https://github.com/Finarfin12/seedbed-capture/releases/latest) (also in [`store/seedbed-capture-0.2.0.zip`](store/seedbed-capture-0.2.0.zip)) and extract it to a folder — **or build from source:** `npm ci`, `npm test`, `npm run build`, `npm run check-bundle` (outputs to `dist/`).
+2. In Chrome, open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the extracted folder (or `dist/`).
 3. Open the extension's options and enter your **vault name**.
 4. Install **Seedbed 0.7.0 or newer** in that vault, or choose **fallback mode** in the options.
 
