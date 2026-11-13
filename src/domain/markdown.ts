@@ -21,7 +21,7 @@ export interface CaptureData {
 }
 
 // Karakter kontrol kecuali \n dan \t, serta pemisah baris Unicode dan kontrol bidi.
-// eslint-disable-next-line no-control-regex
+// eslint-disable-next-line no-control-regex -- the regex must match control characters on purpose, to strip them from captured text
 const CONTROL = new RegExp(
 	"[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f  ‪-‮⁦-⁩]",
 	"g",

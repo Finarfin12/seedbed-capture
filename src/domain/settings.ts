@@ -32,7 +32,7 @@ function clampInt(v: unknown, fallback: number, [min, max]: readonly [number, nu
 /** Nama vault: satu baris, tanpa karakter kontrol, maks. 100 karakter. */
 export function cleanVaultName(v: unknown): string {
 	if (typeof v !== "string") return "";
-	// eslint-disable-next-line no-control-regex
+	// eslint-disable-next-line no-control-regex -- the regex must match control characters on purpose, to strip them from the vault name
 	return v.replace(/[\u0000-\u001f\u007f]/g, " ").replace(/\s+/g, " ").trim().slice(0, 100);
 }
 
